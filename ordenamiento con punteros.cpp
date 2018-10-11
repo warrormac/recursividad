@@ -16,7 +16,7 @@ int print(int *ptr, int tam)
 int ordenamiento(int *ptr, int tam)
 {
     int b=1,c=0;
-    while (c++<tam)
+    while (c<tam)
     {
         while (b++<tam)
         {
@@ -28,6 +28,7 @@ int ordenamiento(int *ptr, int tam)
             }
 
         }
+        c++;
         b=c+1;
     }
 }
